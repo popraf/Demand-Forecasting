@@ -161,3 +161,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 ignore.md
+ARIMA_category_demand_forecasts.csv
+ARIMA_category_forecast_metrics.csv
