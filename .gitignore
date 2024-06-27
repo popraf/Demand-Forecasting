@@ -163,3 +163,5 @@ cython_debug/
 ignore.md
 ARIMA_category_demand_forecasts.csv
 ARIMA_category_forecast_metrics.csv
+XGBoost_category_demand_forecasts.csv
+XGBoost_category_demand_metrics.csv
