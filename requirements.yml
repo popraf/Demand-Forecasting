@@ -4,6 +4,7 @@ channels:
   - defaults
 dependencies:
   - _py-xgboost-mutex=2.0=gpu_0
+  - alembic=1.13.2=pyhd8ed1ab_0
   - asttokens=2.0.5=pyhd3eb1b0_0
   - blas=1.0=mkl
   - bottleneck=1.3.7=py310h9128911_0
@@ -14,6 +15,7 @@ dependencies:
   - ca-certificates=2024.6.2=h56e8100_0
   - click=8.1.7=py310haa95532_0
   - colorama=0.4.6=py310haa95532_0
+  - colorlog=6.8.2=py310h5588dad_0
   - comm=0.2.1=py310haa95532_0
   - contourpy=1.2.0=py310h59b6b97_0
   - cycler=0.11.0=pyhd3eb1b0_0
@@ -24,8 +26,11 @@ dependencies:
   - executing=0.8.3=pyhd3eb1b0_0
   - fonttools=4.51.0=py310h2bbff1b_0
   - freetype=2.12.1=ha860e81_0
+  - greenlet=3.0.1=py310hd77b12b_0
   - icc_rt=2022.1.0=h6049295_2
   - icu=73.1=h6c2663c_0
+  - importlib-metadata=8.0.0=pyha770c72_0
+  - importlib_resources=6.4.0=pyhd8ed1ab_0
   - intel-openmp=2023.1.0=h59b6b97_46320
   - ipykernel=6.28.0=py310haa95532_0
   - ipython=8.25.0=py310haa95532_0
@@ -52,6 +57,8 @@ dependencies:
   - libwebp-base=1.3.2=h2bbff1b_0
   - libxgboost=2.0.3=h5da7b33_0
   - lz4-c=1.9.4=h2bbff1b_1
+  - mako=1.3.5=pyhd8ed1ab_0
+  - markupsafe=1.1.1=py310he2412df_4
   - matplotlib=3.8.4=py310haa95532_0
   - matplotlib-base=3.8.4=py310h4ed8f06_0
   - matplotlib-inline=0.1.6=py310haa95532_0
@@ -65,6 +72,7 @@ dependencies:
   - numpy-base=1.26.4=py310h65a83cf_0
   - openjpeg=2.4.0=h4fc8c34_0
   - openssl=3.0.14=h827c3e9_0
+  - optuna=3.6.1=pyhd8ed1ab_0
   - packaging=23.2=py310haa95532_0
   - pandas=2.2.2=py310h5da7b33_0
   - parso=0.8.3=pyhd3eb1b0_0
@@ -90,8 +98,10 @@ dependencies:
   - python-dateutil=2.9.0post0=py310haa95532_2
   - python-dotenv=0.21.0=py310haa95532_0
   - python-tzdata=2023.3=pyhd3eb1b0_0
+  - python_abi=3.10=2_cp310
   - pytz=2024.1=py310haa95532_0
   - pywin32=305=py310h2bbff1b_0
+  - pyyaml=6.0=py310he2412df_4
   - pyzmq=25.1.2=py310hd77b12b_0
   - qt-main=5.15.2=h19c9488_10
   - scikit-learn=1.4.2=py310h4ed8f06_1
@@ -99,6 +109,7 @@ dependencies:
   - setuptools=69.5.1=py310haa95532_0
   - sip=6.7.12=py310hd77b12b_0
   - six=1.16.0=pyhd3eb1b0_1
+  - sqlalchemy=2.0.30=py310h827c3e9_0
   - sqlite=3.45.3=h2bbff1b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
   - statsmodels=0.14.2=py310h827c3e9_0
@@ -109,6 +120,7 @@ dependencies:
   - tornado=6.4.1=py310h827c3e9_0
   - tqdm=4.66.4=py310h9909e9c_0
   - traitlets=5.14.3=py310haa95532_0
+  - typing-extensions=4.11.0=py310haa95532_0
   - typing_extensions=4.11.0=py310haa95532_0
   - tzdata=2024a=h04d1e81_0
   - unicodedata2=15.1.0=py310h2bbff1b_0
@@ -119,7 +131,9 @@ dependencies:
   - wheel=0.43.0=py310haa95532_0
   - win_inet_pton=1.1.0=py310haa95532_0
   - xz=5.4.6=h8cc25b3_1
+  - yaml=0.2.5=h8ffe710_2
   - zeromq=4.3.5=hd77b12b_0
+  - zipp=3.19.2=pyhd8ed1ab_0
   - zlib=1.2.13=h8cc25b3_1
   - zstd=1.5.5=hd43e919_2
 prefix: E:\MiniConda\envs\demand_forecast
